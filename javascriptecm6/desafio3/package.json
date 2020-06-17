@@ -1,15 +1,8 @@
 {
-  "name": "config_basica_babel",
+  "name": "desafio3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
@@ -23,5 +16,9 @@
   },
   "dependencies": {
     "axios": "^0.19.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
   }
 }
