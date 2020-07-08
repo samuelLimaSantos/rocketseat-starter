@@ -1,13 +1,25 @@
-# rocketseat-starter
- Repositório responsável por armazenas os desafios feitos durante o curso "starter" da Rokeatseat
+# Rocketseat-starter :rocket:
 
-# Como testar: 
-    # Desafio1:
-        - Por padrão, está definido no arquivo index.html o script do primeiro exercício, com os outros comentados.
-        - Para testar os outros scripts basta tirar o comentário deles.
+Repositório responsável por armazenar os desafios e projetos realizados feitos durante o curso "starter" da Rokeatseat
 
-# Aprendizado:
+## O que você vai encontrar aqui :book:
 
-    #Desafio1:
+- Todos os desafios do curso JavaScript ECS6+
+- Api rest desenvolvida no curso de Nodejs
+- Aplicação web, integrada com API e com novas funcionalidades feita durante o curso de Reactjs
 
-        - Tive como aprendizado nesses exercícios a utilização de conceitos presentes na ES6, como classes, desestruturação, template literals, manipulação de arrays, rest e spread, e entre outros.
+## JavaScript ES6+ :fire:
+
+Nesse curso eu aprendi como lidar com as features mais avançadas da linguagem JavaScript. Na pasta `javascriptecm6` está presente todos os desafios
+
+- ### Como rodar:
+  - Clonar a pasta
+  - Executar cada arquivo
+- ### Tecnologias utilizadas:
+  - Javascript ES6+
+  - Babel
+  - Webpack
+
+## NodeJs :computer:
+
+Nesse curso aprendi como começar a utilizar o Node, criar a primeira Api e conectar ela ao banco de dados utilizando o docker.

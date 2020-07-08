@@ -1,39 +1,38 @@
-import React, {Component} from "react";
-import api from "../../services/api"
+import React, { Component } from "react";
+import api from "../../services/api";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default class Product extends Component {
+  state = {
+    product: {},
+  };
 
-    state = {
-        product: {},
-    };
+  async componentDidMount() {
+    const { id } = this.props.match.params;
 
-    async componentDidMount() {
+    const response = await api.get(`/products/${id}`);
 
-        const { id } = this.props.match.params;
+    this.setState({ product: response.data });
+  }
 
-        const response = await api.get(`/products/${id}`);
+  render() {
+    const { product } = this.state;
 
-        this.setState({product: response.data});
-    }
-
-
-    render() {
-
-        const { product } = this.state;
-        
-
-
-
-        return (
-            <div className= "product-info">
-                <h1>{product.title}</h1>
-                <p>{product.description}</p>
-
-                <p>
-                    URL: <a href={product.url}>{product.url}</a>
-                </p>
-            </div>
-        );
-    }
+    return (
+      <div className="product-info">
+        <div className="option-header">
+          <h1>{product.title}</h1>
+          <Link to="/">
+            <img
+              src="https://image.flaticon.com/icons/svg/864/864390.svg"
+              alt="close-icon"
+              width="25px"
+            />
+          </Link>
+        </div>
+        <p>{product.description}</p>
+      </div>
+    );
+  }
 }

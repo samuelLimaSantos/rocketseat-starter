@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles.css"
+import "./styles.css";
 
-const Header = () => (
-    <header id= "main-header">JSHunt</header>
-); // No retorno depois da arrow function vem o parênteses
+const Header = () => {
+  return <header id="main-header">JSHunt</header>;
+};
 
 export default Header;
