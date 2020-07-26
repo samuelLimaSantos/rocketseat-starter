@@ -9,6 +9,7 @@ Repositório responsável por armazenar os desafios e projetos realizados feitos
 - Aplicação web, integrada com API e com novas funcionalidades feita durante o curso de Reactjs
 
 ![gif](video_webapp.gif)
+![gif](mobile.gif)
 
 ## JavaScript ES6+ :fire:
 
@@ -25,3 +26,11 @@ Nesse curso eu aprendi como lidar com as features mais avançadas da linguagem J
 ## NodeJs :computer:
 
 Nesse curso aprendi como começar a utilizar o Node, criar a primeira Api e conectar ela ao banco de dados utilizando o docker.
+
+## ReactJs :computer:
+
+Nesse curso aprendi como utilizar o React para criar interfaces interativas e consumir a api criada no curso anterior.
+
+## React Native :computer:
+
+Nesse curso aprendi como utilizar o React Native para criar um aplicativo nativo para Android e IOS utilizando expo.
